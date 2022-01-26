@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/editItem"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:title="@string/edit"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/editPicture"
+                android:icon="@drawable/baseline_image_black_24"
+                android:title="@string/edit_profile_picture" />
+            <item
+                android:id="@+id/editUsername"
+                android:icon="@drawable/baseline_person_black_24"
+                android:title="@string/edit_username" />
+            <item
+                android:id="@+id/editPhone"
+                android:icon="@drawable/baseline_call_black_24"
+                android:title="@string/edit_phone_number" />
+            <item
+                android:id="@+id/editPassword"
+                android:icon="@drawable/baseline_password_black_24"
+                android:title="@string/edit_password" />
+        </menu>
+
+    </item>
+</menu>

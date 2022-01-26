@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_options">
+        <item>race</item>
+        <item>distance</item>
+        <item>name</item>
+    </string-array>
+    <string-array name="pet_options">
+        <item>All</item>
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Fish</item>
+    </string-array>
+</resources>
